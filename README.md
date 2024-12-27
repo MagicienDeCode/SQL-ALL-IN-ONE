@@ -3,15 +3,26 @@
 - Create a leetcode account or login with google account.
 - Just have fun.
 - 恩返しです。
+- Price: 648 CNY
+- Contact me: xiangli1105@hotmail.com
+
+# Class Plan
+- Class 1: Introduction SQL, Relational Database vs NoSQL Database, SELECT in one table.
+- Class 2 & Class 3: Basic Joins
+- Class 4: Basic Aggregate Functions
+- Class 5: Sorting and Grouping
+- Class 6: Subqueries
+- Class 7: Advanced String Functions / Regex / Clause
+- Class 8: Interview Questions
 
 # SQL (Structed Query Language)
 - SQL is a standardized programming language used to manage and manipulate relational databases.
 
-# Relational database vs NoSQL
-- [README](https://github.com/MagicienDeCode/py3_interview/blob/master/sql/1.0.relational-db-vs-kv-db.md)
+# Relational Database vs NoSQL
+- [README](https://github.com/MagicienDeCode/SQL-ALL-IN-ONE/blob/master/1.0.relational-db-vs-kv-db.md)
 
 # SELECT 
-- [template and basice functions](https://github.com/MagicienDeCode/py3_interview/blob/master/sql/2.0.select.md)
+- [template and basice functions](https://github.com/MagicienDeCode/SQL-ALL-IN-ONE/blob/master/2.0.select.md)
 
 - table users
 
@@ -35,11 +46,11 @@
 -- 2. SELECT all users name which has age and sex is F, return small case name: example: kiki
 -- 3. calculate average age of women, if age is NULL, take default value 18
 ```
-- homework todo, [answer](https://github.com/MagicienDeCode/py3_interview/blob/master/sql/2.1.todo.md)
+- homework todo, [answer](https://github.com/MagicienDeCode/SQL-ALL-IN-ONE/blob/master/2.1.todo.md)
 
 # Basic Joins
 
-- [README](https://github.com/MagicienDeCode/py3_interview/blob/master/sql/3.0.basic-joins.md)
+- [README](https://github.com/MagicienDeCode/SQL-ALL-IN-ONE/blob/master/3.0.basic-joins.md)
 - Foreign Key
 - One to One (1 to 1): FK both
 - One to Many (1 to n): FK in Many
@@ -80,7 +91,7 @@
 - GROUP_CONCAT(DISTINCT xx ORDER BY yy)
 
 ## [SQL 50](https://leetcode.com/studyplan/top-sql-50/)
-- [Solutions]()
+- [Solutions](https://github.com/MagicienDeCode/SQL-ALL-IN-ONE/blob/master/3.50.solutions.md)
 
 # Interview
-- 
+- [Basic Interview](https://github.com/MagicienDeCode/SQL-ALL-IN-ONE/blob/master/4.0.interview.md)
