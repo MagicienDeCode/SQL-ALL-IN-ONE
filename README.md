@@ -65,7 +65,7 @@
 - COALESCE(xx,vv) if xx is NULL, return vv
 - CASE WHEN xx > 3 THEN 1 ELSE 0 END
 - LEFT(xx, 7) take first 7 characters
-- AVG(xx == yy)
+- AVG(xx = yy)
 - COUNT(xx) / (SELECT COUNT(DISTINCT xx) FROM Table)
 - WHERE (xx,yy) IN (SELECT xx,yy FROM Table GROUP BY xx)
 - GROUP BY xx1, xx2
