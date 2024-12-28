@@ -59,6 +59,20 @@
 - IF(xx='xx',1,0)
 - xx + INTERVAL 1 DAY = yy
 
+- **JOIN filter, WHERE filter**
+```sql
+-- LEFT JOIN, if UnitsSold data exists, date should between start and end. if data not exists, just fill NULL
+SELECT *
+FROM Prices p
+LEFT JOIN UnitsSold u ON p.product_id = u.product_id AND u.purchase_date BETWEEN p.start_date AND p.end_date;
+
+-- LEFT JOIN, if data not exists, fill NULL, then filter on results, 
+-- WHERE u.purchase_date BETWEEN p.start_date AND p.end_date == date should NOT be NULL, and between start and end
+SELECT *
+FROM Prices p
+LEFT JOIN UnitsSold u ON p.product_id = u.product_id 
+WHERE u.purchase_date BETWEEN p.start_date AND p.end_date;
+```
 # Basic Aggregate Functions
 - COUNT SUM AVG MIN MAX
 - xx % 2 = 0 even, xx % 2 != 0 odd
@@ -69,6 +83,7 @@
 - COUNT(xx) / (SELECT COUNT(DISTINCT xx) FROM Table)
 - WHERE (xx,yy) IN (SELECT xx,yy FROM Table GROUP BY xx)
 - GROUP BY xx1, xx2
+- datexx BETWEEN 'date1' AND 'date2'
 
 # Sorting and Grouping
 - HAVING COUNT(xx) = (SELECT xx ..)
