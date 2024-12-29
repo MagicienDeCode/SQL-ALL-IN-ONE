@@ -109,4 +109,4 @@ WHERE u.purchase_date BETWEEN p.start_date AND p.end_date;
 - [Solutions](https://github.com/MagicienDeCode/SQL-ALL-IN-ONE/blob/master/3.50.solutions.md)
 
 # Interview
-- [Basic Interview](https://github.com/MagicienDeCode/SQL-ALL-IN-ONE/blob/master/4.0.interview.md)
+- [Interview Questions](https://github.com/MagicienDeCode/SQL-ALL-IN-ONE/blob/master/4.0.interview.md)
