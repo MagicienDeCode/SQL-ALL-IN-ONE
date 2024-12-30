@@ -76,7 +76,7 @@ WHERE u.purchase_date BETWEEN p.start_date AND p.end_date;
 # Basic Aggregate Functions
 - COUNT SUM AVG MIN MAX
 - xx % 2 = 0 even, xx % 2 != 0 odd
-- COALESCE(xx,vv) if xx is NULL, return vv
+- COALESCE(xx,vv) if xx is not exist, return vv
 - CASE WHEN xx > 3 THEN 1 ELSE 0 END
 - LEFT(xx, 7) take first 7 characters
 - AVG(xx = yy)
