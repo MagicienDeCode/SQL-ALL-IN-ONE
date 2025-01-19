@@ -66,12 +66,14 @@ SELECT *
 FROM Prices p
 LEFT JOIN UnitsSold u ON p.product_id = u.product_id AND u.purchase_date BETWEEN p.start_date AND p.end_date;
 
--- LEFT JOIN, if data not exists, fill NULL, then filter on results, 
+-- LEFT JOIN, if data not exists, fill NULL, if data exists then apply filter, 
 -- WHERE u.purchase_date BETWEEN p.start_date AND p.end_date == date should NOT be NULL, and between start and end
 SELECT *
 FROM Prices p
 LEFT JOIN UnitsSold u ON p.product_id = u.product_id 
 WHERE u.purchase_date BETWEEN p.start_date AND p.end_date;
+
+-- INNER JOIN?
 ```
 # Basic Aggregate Functions
 - COUNT SUM AVG MIN MAX
