@@ -3,7 +3,7 @@
 - Create a leetcode account or login with google account.
 - Just have fun.
 - 恩返しです。
-- Price: 648 CNY
+- Price: 888 CNY
 - Contact me: xiangli1105@hotmail.com
 
 # Class Plan
